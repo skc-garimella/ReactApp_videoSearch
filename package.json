@@ -2,14 +2,20 @@
   "name": "skc-garimella",
   "version": "1.0.0",
   "description": "Youtube search functionality using reactjs",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "lodash": "^4.14.1",
-    "youtube-api-search": "^0.0.5"
-  },
+    "youtube-api-search": "^0.0.5",
+    "babel-preset-stage-1": "^6.1.18",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4",
+   },
   "devDependencies": {},
   "scripts": {
     "test": "mocha"
